@@ -25,31 +25,31 @@ exercises: 35
 
 A Responsible Computing Plan (RCP) is a document that ensures positive environmental impacts are captured and plans the project lifecycle to achieve project goals with minimal emissions. It is a living document that reacts to changes in the project rather than being prescriptive.
 
-### High-level RCP sections
-
-A Responsible Computing Plan typically includes four main sections:
-
-1. Describing the positive environmental impacts from the project
-2. Planning and starting the project
-3. Running the project
-4. Finishing the project
-
-## Why are RCPs useful/needed?
-
-There is often a disconnect between use and awareness of resources used in research computing. The default position is frequently to use more resources to achieve progress rather than think carefully about the best way to achieve results. This is sometimes described as "reaching for the bigger hammer rather than the right tool."
+There is often a disconnect between use and awareness of resources used in research computing. The default position is frequently to use more resources to achieve progress rather than think carefully about the most efficient way to achieve results. This is sometimes described as "reaching for the bigger hammer rather than the right tool."
 
 RCPs help address this by:
 
-- Providing the opportunity to think explicitly about the of the environmental impact of their computing choices
-- Encouraging careful planning to minimise resource use
-- Promoting efficient use of resources
-- Ensuring environmental considerations are built into the project lifecycle
+- Providing the opportunity to think explicitly about the of the environmental impact of your computing choices
+- Encouraging careful planning to minimise resource use and maximise resource efficiency
+- Ensuring environmental considerations are built into the way the project is run throughout its lifetime 
 
-## Who are RCPs for and when should they be used?
-
-While RCPs are framed for use in research projects but they can be used more widely as the aspects they cover are not usually specific to research projects. 
+We frame responsible computing plans in the context of research projects but, with some thought, they can be adapted for use more widely. 
 
 While they are most impactful if used before a project or activity starts and throughout its lifetime by the whole project team; they can be used at any point in a project or activity lifecycle and by subsets of people or even individuals to bring environmental benefits. 
+
+In this episode, we cover four main aspects of responsible computing plans to give you an idea of how to go about putting one together:
+
+Evaluating positive environmental impacts 
+: While we often focus on the negative environmental impacts of projects, it is important to try and evaluate any positive environmental impacts, both qualitative and quantitative.
+
+Planning for minimising impact
+: Looking at how we can plan projects and activities to minimise environmental impact, encourage good practice and behaviour and be as efficient as possible while still achieving the project goals.
+
+Running the project responsibly
+: While planning is important, following through on the plans and adapting to change as the project evolves is critical to working in an environmentally sustainable way.
+
+Finishing the project well
+: One of the most challenging aspects of research projects is finishing them up in a way that makes the knowledge and outputs useable in a way that means future work can build on them without incurring unnecessary additional resource use. This is typically associated with ensuring project outputs and products conform to [FAIR principles](https://www.go-fair.org/fair-principles/).
 
 ## 1. Positive Environmental Impacts
 
