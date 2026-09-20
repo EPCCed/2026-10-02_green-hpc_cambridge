@@ -503,7 +503,7 @@ smallest?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>You may have come up with activities from the following list:</p>
 <ul>
@@ -669,7 +669,7 @@ from.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <p>You may have come up with sources such as:</p>
 <ul>
@@ -708,7 +708,7 @@ work?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <p>You may have come up with outcomes such as:</p>
 <ul>
@@ -3253,7 +3253,7 @@ could take to implement abatement when buying HPC systems?</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <ul>
 <li>Individual users:
@@ -3690,11 +3690,11 @@ lifecycle</li>
 <section><h2 class="section-heading" id="what-is-a-responsible-computing-plan">What is a Responsible Computing Plan?<a class="anchor" aria-label="anchor" href="#what-is-a-responsible-computing-plan"></a>
 </h2>
 <hr class="half-width">
-<p>A Responsible Computing Plan (RCP) is a document that ensures
-positive environmental impacts are captured and plans the project
-lifecycle to achieve project goals with minimal negative environmental
-impact. It is a living document that reacts to changes in the project
-rather than being prescriptive.</p>
+<p>A <em>Responsible Computing Plan (RCP)</em> is a document that
+ensures positive environmental impacts are captured and plans the
+project lifecycle to achieve project goals with minimal negative
+environmental impact. It is a living document that reacts to changes in
+the project rather than being prescriptive.</p>
 <div id="not-just-emissions" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
@@ -3810,14 +3810,13 @@ evaluation</td>
 </tr>
 </tbody>
 </table>
-<div id="exercise-1-positive-environmental-impact-statement" class="callout challenge">
+<div id="positive-environmental-impacts" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <span class="callout-header">Challenge</span>
-<div id="exercise-1-positive-environmental-impact-statement" class="callout-inner">
-<h3 class="callout-title">Exercise 1: Positive Environmental Impact
-Statement</h3>
+<div id="positive-environmental-impacts" class="callout-inner">
+<h3 class="callout-title">Positive environmental impacts</h3>
 <div class="callout-content">
 <p><strong>Time: 10 minutes</strong></p>
 <p>Choose a project/activity you are (or have been) involved in, or make
@@ -3855,42 +3854,60 @@ environmental footprint)</li>
 </div>
 </div>
 </div>
-</section><section><h2 class="section-heading" id="planning-projects">2. Planning Projects<a class="anchor" aria-label="anchor" href="#planning-projects"></a>
+</section><section><h2 class="section-heading" id="planning-projects">Planning projects<a class="anchor" aria-label="anchor" href="#planning-projects"></a>
 </h2>
 <hr class="half-width">
 <p>Planning the project with environmental sustainability in mind is
-typically the time when you can have the <strong>largest
-impact</strong>. Planning to run the project in a responsible way almost
-always makes the project more impactful and robust from a
-non-environmental standpoint too.</p>
+typically the time when you can have the largest impact. Planning to run
+the project in a responsible way almost always makes the project more
+impactful and robust from a non-environmental standpoint too.</p>
+<p>We will look at both compute resource use and data resource use.
+Which of these is more important for your project/activity depends on
+the type of work you are doing. For most HPC work, compute resource use
+will dominate the emissions from the activity but if you use a
+relatively small amount of compute compared to data resources it could
+be a different story. You can use the measurement methodologies
+discussed earlier to try and estimate the relative contribution of
+compute and data resources to your work.</p>
 <div class="section level3">
-<h3 id="responsible-compute-resource-use">Responsible Compute Resource Use<a class="anchor" aria-label="anchor" href="#responsible-compute-resource-use"></a>
+<h3 id="responsible-compute-resource-use">Responsible compute resource use<a class="anchor" aria-label="anchor" href="#responsible-compute-resource-use"></a>
 </h3>
-<p><strong>Reduction of consumption</strong> is a central tenet of
-reducing environmental impact. Points to consider include:</p>
+<p>As we have already seen, <em>reduction of consumption</em> is the
+central tenet of reducing environmental impact. Planning to use minimal
+compute resources to achieve the project aims is critical. Some high
+level points to consider:</p>
 <ul>
-<li>
-<strong>Look for existing datasets</strong> that you can use rather
-than repeating calculations</li>
-<li>This is not all or nothing – existing data may help you minimise
-your use to the most impactful use of resources</li>
-<li><strong>Ensure that all planned use will contribute meaningful data
-points</strong></li>
+<li>Look for existing datasets that you can use rather than repeating
+calculations
+<ul>
+<li>This is not all or nothing – existing data may help you make any use
+the most impactful use of resources</li>
+</ul>
+</li>
+<li>Ensure that all planned use will contribute meaningful data points
+<ul>
 <li>If the project involves sampling, select a sampling distribution
-that maximises information per point
-<ul>
+that maximises information per point</li>
 <li>For example, a regular sampling grid at finest resolution is
 unlikely to be the most efficient use – minimise data points in regions
 of little change</li>
 </ul>
 </li>
-<li>When running parallel calculations – using the <strong>smallest
-number of cores/nodes</strong> that take a reasonable time is usually
-the most emissions efficient</li>
+<li>When running parallel calculations – using the smallest number of
+cores/nodes that take a reasonable time is usually the most efficient
+from an environmental standpoint</li>
+</ul>
+<p>We now take a quick look in more detail at two aspects of planning
+compute resource use:</p>
+<ul>
+<li>The impact of testing before and during a project on environmental
+impact</li>
+<li>Making sure that environmental sustainability is considered when
+selecting the methods and approach to use</li>
 </ul>
 </div>
 <div class="section level3">
-<h3 id="testing-before-large-scale-use">Testing Before Large-Scale Use<a class="anchor" aria-label="anchor" href="#testing-before-large-scale-use"></a>
+<h3 id="testing-before-large-scale-use">Testing before large-scale use<a class="anchor" aria-label="anchor" href="#testing-before-large-scale-use"></a>
 </h3>
 <p>Test that the proposed methodologies will likely give viable results
 before embarking on large amounts of resource use:</p>
@@ -3908,7 +3925,7 @@ method is viable – shorter runs, reduced datasets or other reductions
 can give confidence in the proposed resource consumption estimates.</p>
 </div>
 <div class="section level3">
-<h3 id="selecting-appropriate-methods">Selecting Appropriate Methods<a class="anchor" aria-label="anchor" href="#selecting-appropriate-methods"></a>
+<h3 id="selecting-appropriate-methods">Selecting appropriate methods<a class="anchor" aria-label="anchor" href="#selecting-appropriate-methods"></a>
 </h3>
 <p>Use methods proportionate to the project objectives rather than
 automatically choosing the most complex/advanced/higher resolution
@@ -3928,14 +3945,13 @@ substantial new information?</li>
 to ensure the correct scale setup is chosen for each step (or when plans
 change)</li>
 </ul>
-<div id="exercise-2-planning-for-environmental-sustainability" class="callout challenge">
+<div id="compute-resource-planning" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <span class="callout-header">Challenge</span>
-<div id="exercise-2-planning-for-environmental-sustainability" class="callout-inner">
-<h3 class="callout-title">Exercise 2: Planning for Environmental
-Sustainability</h3>
+<div id="compute-resource-planning" class="callout-inner">
+<h3 class="callout-title">Compute resource planning</h3>
 <div class="callout-content">
 <p><strong>Time: 10 minutes</strong></p>
 <p>For the same project you worked on in Exercise 1:</p>
@@ -3978,7 +3994,7 @@ learning approaches justify their computational cost</p>
 </div>
 </div>
 <div class="section level3">
-<h3 id="responsible-data-resource-use">Responsible Data Resource Use<a class="anchor" aria-label="anchor" href="#responsible-data-resource-use"></a>
+<h3 id="responsible-data-resource-use">Responsible data resource use<a class="anchor" aria-label="anchor" href="#responsible-data-resource-use"></a>
 </h3>
 <p>Many projects already produce data management plans, and these
 typically align well with responsible resource use. The questions that
@@ -3998,7 +4014,7 @@ approach</strong> throughout the project (more on this in the “Finishing
 the project” section).</p>
 </div>
 <div class="section level3">
-<h3 id="selecting-resources">Selecting Resources<a class="anchor" aria-label="anchor" href="#selecting-resources"></a>
+<h3 id="selecting-resources">Selecting resources<a class="anchor" aria-label="anchor" href="#selecting-resources"></a>
 </h3>
 <p>Projects often have choices of HPC facility to use for different
 parts of the project. With environmental sustainability in mind, the
@@ -4038,13 +4054,13 @@ emissions</p></li>
 operational emissions are the dominant factor</strong> in lifetime
 emissions</p></li>
 </ul>
-<div id="exercise-3-data-and-resource-planning" class="callout challenge">
+<div id="data-and-resource-planning" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <span class="callout-header">Challenge</span>
-<div id="exercise-3-data-and-resource-planning" class="callout-inner">
-<h3 class="callout-title">Exercise 3: Data and Resource Planning</h3>
+<div id="data-and-resource-planning" class="callout-inner">
+<h3 class="callout-title">Data and resource planning</h3>
 <div class="callout-content">
 <p><strong>Time: 10 minutes</strong></p>
 <p>For the same project you worked on in previous exercises:</p>
@@ -4083,7 +4099,7 @@ different hardware options</p>
 </div>
 </div>
 </div>
-</section><section><h2 class="section-heading" id="running-the-project">3. Running the Project<a class="anchor" aria-label="anchor" href="#running-the-project"></a>
+</section><section><h2 class="section-heading" id="running-the-project">Running the project<a class="anchor" aria-label="anchor" href="#running-the-project"></a>
 </h2>
 <hr class="half-width">
 <p>Re-planning is often needed during research projects as objectives
@@ -4091,7 +4107,7 @@ might change, new methods may need to be employed, or new data may
 become available. Principles for responsible computing can be built into
 a research project throughout its execution.</p>
 <div class="section level3">
-<h3 id="run-software-carefully">Run Software Carefully<a class="anchor" aria-label="anchor" href="#run-software-carefully"></a>
+<h3 id="run-software-carefully">Run software carefully<a class="anchor" aria-label="anchor" href="#run-software-carefully"></a>
 </h3>
 <p><strong>Reducing waste of resources</strong> is key to using HPC in a
 sustainable way. The disconnect between using resources and visible
@@ -4121,7 +4137,7 @@ information</strong> to avoid rerunning this work unnecessarily</li>
 </ul>
 </div>
 <div class="section level3">
-<h3 id="optimise-where-it-matters">Optimise Where it Matters<a class="anchor" aria-label="anchor" href="#optimise-where-it-matters"></a>
+<h3 id="optimise-where-it-matters">Optimise where it matters<a class="anchor" aria-label="anchor" href="#optimise-where-it-matters"></a>
 </h3>
 <p>Many projects waste time optimising workflows in areas that will make
 a negligible impact on reducing environmental impact (or even
@@ -4143,7 +4159,7 @@ optimise your workflow</li>
 team</strong> who are well placed to help</li>
 </ul>
 </div>
-</section><section><h2 class="section-heading" id="finishing-the-project">4. Finishing the Project<a class="anchor" aria-label="anchor" href="#finishing-the-project"></a>
+</section><section><h2 class="section-heading" id="finishing-the-project">Finishing the project<a class="anchor" aria-label="anchor" href="#finishing-the-project"></a>
 </h2>
 <hr class="half-width">
 <p>In environmental sustainability terms, planning how a project will be
@@ -4167,7 +4183,7 @@ has been done?</strong></li>
 <p>Finishing a project well typically corresponds to applying
 <strong>FAIR principles</strong>.</p>
 <div class="section level3">
-<h3 id="fair-data-principles">FAIR Data Principles<a class="anchor" aria-label="anchor" href="#fair-data-principles"></a>
+<h3 id="fair-data-principles">FAIR data principles<a class="anchor" aria-label="anchor" href="#fair-data-principles"></a>
 </h3>
 <p>The FAIR data principles provide a framework for ensuring data
 is:</p>
@@ -4191,13 +4207,13 @@ found and used by others (and your future self) - Work does not need to
 be duplicated - The environmental cost of data generation is amortized
 over maximum reuse - Research is more impactful and efficient
 overall</p>
-<div id="exercise-4-finishing-the-project-well" class="callout challenge">
+<div id="finishing-the-project-well" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <span class="callout-header">Challenge</span>
-<div id="exercise-4-finishing-the-project-well" class="callout-inner">
-<h3 class="callout-title">Exercise 4: Finishing the Project Well</h3>
+<div id="finishing-the-project-well" class="callout-inner">
+<h3 class="callout-title">Finishing the project well</h3>
 <div class="callout-content">
 <p><strong>Time: 5 minutes</strong></p>
 <p>For the same project you worked on in previous exercises:</p>
@@ -4274,9 +4290,9 @@ community</li>
 <li>Document work for future reuse</li>
 <li>Ensure calculations don’t need to be rerun</li>
 </ul>
-<p>Remember: an RCP is a <strong>living document</strong> that should
-evolve as your project develops, not a prescriptive checklist to be
-completed once and forgotten.</p>
+<p>Remember: an RCP is a living document that should evolve as your
+project develops, not a prescriptive checklist to be completed once and
+forgotten.</p>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
