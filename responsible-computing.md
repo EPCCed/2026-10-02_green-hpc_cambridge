@@ -23,7 +23,15 @@ exercises: 35
 
 ## What is a Responsible Computing Plan?
 
-A Responsible Computing Plan (RCP) is a document that ensures positive environmental impacts are captured and plans the project lifecycle to achieve project goals with minimal emissions. It is a living document that reacts to changes in the project rather than being prescriptive.
+A Responsible Computing Plan (RCP) is a document that ensures positive environmental impacts are captured and plans the project lifecycle to achieve project goals with minimal negative environmental impact. It is a living document that reacts to changes in the project rather than being prescriptive. 
+
+:::::::::::::::::::::::::::::::::::::  callout
+
+## Not just emissions
+
+While this workshop has focussed on emissions, a responsible computing plan can cover all forms of environmental impact.
+
+::::::::::::::::::::::::::::::::::::::::::::::::
 
 There is often a disconnect between use and awareness of resources used in research computing. The default position is frequently to use more resources to achieve progress rather than think carefully about the most efficient way to achieve results. This is sometimes described as "reaching for the bigger hammer rather than the right tool."
 
@@ -39,23 +47,32 @@ While they are most impactful if used before a project or activity starts and th
 
 In this episode, we cover four main aspects of responsible computing plans to give you an idea of how to go about putting one together:
 
-Evaluating positive environmental impacts 
+Evaluate positive environmental impacts 
 : While we often focus on the negative environmental impacts of projects, it is important to try and evaluate any positive environmental impacts, both qualitative and quantitative.
 
-Planning for minimising impact
+Plan to minimise impact
 : Looking at how we can plan projects and activities to minimise environmental impact, encourage good practice and behaviour and be as efficient as possible while still achieving the project goals.
 
-Running the project responsibly
+Run the project responsibly
 : While planning is important, following through on the plans and adapting to change as the project evolves is critical to working in an environmentally sustainable way.
 
-Finishing the project well
+Finish the project well
 : One of the most challenging aspects of research projects is finishing them up in a way that makes the knowledge and outputs useable in a way that means future work can build on them without incurring unnecessary additional resource use. This is typically associated with ensuring project outputs and products conform to [FAIR principles](https://www.go-fair.org/fair-principles/).
 
-## 1. Positive Environmental Impacts
+## Evaluate positive environmental impacts
 
-The first section of your RCP should contain a **positive environmental impact statement**. This is a statement that describes the positive environmental impacts of the project – ideally quantitative but may need to be qualitative.
+We will look at minimising the negative environmental impacts in the rest of this episode but the first step in developing responsible computing plan is taking some time to evaluate the positive environmental impacts of the work. Ideally, the impacts would be evaluated or estimated quantitatively but this may not always be possible and you may need to include more qualitative statements. You should consider both direct and indirect impacts.
 
-This statement helps justify the environmental cost of the computing resources used by highlighting the environmental benefits the project will deliver.
+The aim of the statement is to help justify the environmental cost of the computing resources used by highlighting the environmental benefits the project will deliver.
+
+Direct impacts are outputs from the project/activity that will reduce environmental impact, indirect impacts are outputs from the project that enable others to reduce their environmental impact. Some examples of direct and indirect positive impacts can be found in the table below:
+
+| Direct Impacts | Indirect Impacts |
+|:--|:--|
+| Developing a new, more efficient wind turbine | Ensuring that environmental impact is publicly stated in all project outputs |
+| Improving/evaluating biodiversity in a habitat | Developing training to raise awareness/understanding of environmental issues |
+| Enabling reuse of water that would otherwise be wasted | Running modelling to support IPCC reports and targets |
+| Developing more efficient rare earth recycling methods | Providing datasets/methods to support emissions evaluation |
 
 :::::::::::::::::::::::::::::::::::::  challenge
 
@@ -63,22 +80,20 @@ This statement helps justify the environmental cost of the computing resources u
 
 **Time: 10 minutes**
 
-Choose a project you are (or have been) involved in, or make up a plausible project scenario.
+Choose a project/activity you are (or have been) involved in, or make up a plausible scenario.
 
 1. Write up the project overview in 2-3 sentences
-2. Produce a proposed environmental impact statement
-
-The environmental impact statement should describe the positive environmental impacts of the project – ideally quantitative but may need to be qualitative.
+2. Produce 2-3 bullet points that describe how the project could have positive environmental impact. This would ideally include at least one point that could be evaluated quantitatively. Classify the points as *direct* or *indirect*.
 
 :::::::::::::  solution
 
 ## Solution
 
-Your project overview should clearly state what the project aims to achieve. Your environmental impact statement might include:
+Your project overview should clearly state what the project/activity aims to achieve. Your positive environmental impacts might include:
 
 - Quantitative measures (e.g., "This project will reduce energy consumption in X process by Y%")
 - Qualitative measures (e.g., "This project will enable better understanding of climate patterns")
-- Direct impacts (e.g., reduced emissions from the research itself)
+- Direct impacts (e.g., reduced emissions from the project itself)
 - Indirect impacts (e.g., enabling others to reduce their environmental footprint)
 
 :::::::::::::::::::::::
