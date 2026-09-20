@@ -23,7 +23,7 @@ exercises: 35
 
 ## What is a Responsible Computing Plan?
 
-A Responsible Computing Plan (RCP) is a document that ensures positive environmental impacts are captured and plans the project lifecycle to achieve project goals with minimal negative environmental impact. It is a living document that reacts to changes in the project rather than being prescriptive. 
+A *Responsible Computing Plan (RCP)* is a document that ensures positive environmental impacts are captured and plans the project lifecycle to achieve project goals with minimal negative environmental impact. It is a living document that reacts to changes in the project rather than being prescriptive. 
 
 :::::::::::::::::::::::::::::::::::::  callout
 
@@ -76,7 +76,7 @@ Direct impacts are outputs from the project/activity that will reduce environmen
 
 :::::::::::::::::::::::::::::::::::::  challenge
 
-## Exercise 1: Positive Environmental Impact Statement
+## Positive environmental impacts
 
 **Time: 10 minutes**
 
@@ -100,22 +100,29 @@ Your project overview should clearly state what the project/activity aims to ach
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-## 2. Planning Projects
+## Planning projects
 
-Planning the project with environmental sustainability in mind is typically the time when you can have the **largest impact**. Planning to run the project in a responsible way almost always makes the project more impactful and robust from a non-environmental standpoint too.
+Planning the project with environmental sustainability in mind is typically the time when you can have the largest impact. Planning to run the project in a responsible way almost always makes the project more impactful and robust from a non-environmental standpoint too.
 
-### Responsible Compute Resource Use
+We will look at both compute resource use and data resource use. Which of these is more important for your project/activity depends on the type of work you are doing. For most HPC work, compute resource use will dominate the emissions from the activity but if you use a relatively small amount of compute compared to data resources it could be a different story. You can use the measurement methodologies discussed earlier to try and estimate the relative contribution of compute and data resources to your work.
 
-**Reduction of consumption** is a central tenet of reducing environmental impact. Points to consider include:
+### Responsible compute resource use
 
-- **Look for existing datasets** that you can use rather than repeating calculations
-- This is not all or nothing – existing data may help you minimise your use to the most impactful use of resources
-- **Ensure that all planned use will contribute meaningful data points**
-- If the project involves sampling, select a sampling distribution that maximises information per point
-  - For example, a regular sampling grid at finest resolution is unlikely to be the most efficient use – minimise data points in regions of little change
-- When running parallel calculations – using the **smallest number of cores/nodes** that take a reasonable time is usually the most emissions efficient
+As we have already seen, *reduction of consumption* is the central tenet of reducing environmental impact. Planning to use minimal compute resources to achieve the project aims is critical. Some high level points to consider: 
 
-### Testing Before Large-Scale Use
+- Look for existing datasets that you can use rather than repeating calculations
+   - This is not all or nothing – existing data may help you make any use the most impactful use of resources
+- Ensure that all planned use will contribute meaningful data points
+   - If the project involves sampling, select a sampling distribution that maximises information per point
+   - For example, a regular sampling grid at finest resolution is unlikely to be the most efficient use – minimise data points in regions of little change
+- When running parallel calculations – using the smallest number of cores/nodes that take a reasonable time is usually the most efficient from an environmental standpoint
+
+We now take a quick look in more detail at two aspects of planning compute resource use:
+
+- The impact of testing before and during a project on environmental impact
+- Making sure that environmental sustainability is considered when selecting the methods and approach to use
+
+### Testing before large-scale use
 
 Test that the proposed methodologies will likely give viable results before embarking on large amounts of resource use:
 
@@ -125,7 +132,7 @@ Test that the proposed methodologies will likely give viable results before emba
 
 You often do not need to run at full scale to test if the selected method is viable – shorter runs, reduced datasets or other reductions can give confidence in the proposed resource consumption estimates.
 
-### Selecting Appropriate Methods
+### Selecting appropriate methods
 
 Use methods proportionate to the project objectives rather than automatically choosing the most complex/advanced/higher resolution option:
 
@@ -137,7 +144,7 @@ Use methods proportionate to the project objectives rather than automatically ch
 
 :::::::::::::::::::::::::::::::::::::  challenge
 
-## Exercise 2: Planning for Environmental Sustainability
+## Compute resource planning
 
 **Time: 10 minutes**
 
@@ -177,7 +184,7 @@ Your answers might include:
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-### Responsible Data Resource Use
+### Responsible data resource use
 
 Many projects already produce data management plans, and these typically align well with responsible resource use. The questions that would be asked are similar to those for a data management plan:
 
@@ -188,7 +195,7 @@ Many projects already produce data management plans, and these typically align w
 
 Additionally, build plans to publish data using a **FAIR approach** throughout the project (more on this in the "Finishing the project" section).
 
-### Selecting Resources
+### Selecting resources
 
 Projects often have choices of HPC facility to use for different parts of the project. With environmental sustainability in mind, the choice is often a balance of **hardware efficiency**, **energy efficiency** and **carbon awareness**.
 
@@ -211,7 +218,7 @@ When selecting an HPC facility, consider:
 
 :::::::::::::::::::::::::::::::::::::  challenge
 
-## Exercise 3: Data and Resource Planning
+## Data and resource planning
 
 **Time: 10 minutes**
 
@@ -244,11 +251,11 @@ Write brief bullet points covering how you could, from an environmental sustaina
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-## 3. Running the Project
+## Running the project
 
 Re-planning is often needed during research projects as objectives might change, new methods may need to be employed, or new data may become available. Principles for responsible computing can be built into a research project throughout its execution.
 
-### Run Software Carefully
+### Run software carefully
 
 **Reducing waste of resources** is key to using HPC in a sustainable way. The disconnect between using resources and visible consumption makes it easier to waste resources.
 
@@ -261,7 +268,7 @@ Points to consider:
 - **Consider using carbon intensity forecasts** to schedule work at a lower-carbon time
 - **Before running work, ensure you are recording enough information** to avoid rerunning this work unnecessarily
 
-### Optimise Where it Matters
+### Optimise where it matters
 
 Many projects waste time optimising workflows in areas that will make a negligible impact on reducing environmental impact (or even performance) or optimise inefficiently due to lack of specialist support.
 
@@ -271,7 +278,7 @@ Many projects waste time optimising workflows in areas that will make a negligib
 - **Enlist the support of specialists** to analyse and optimise your workflow
 - Many institutions have a local **Research Software Engineering team** who are well placed to help
 
-## 4. Finishing the Project
+## Finishing the project
 
 In environmental sustainability terms, planning how a project will be finalised means:
 
@@ -288,7 +295,7 @@ For example, the following points could be considered:
 
 Finishing a project well typically corresponds to applying **FAIR principles**.
 
-### FAIR Data Principles
+### FAIR data principles
 
 The FAIR data principles provide a framework for ensuring data is:
 
@@ -312,7 +319,7 @@ By following FAIR principles, you ensure that:
 
 :::::::::::::::::::::::::::::::::::::  challenge
 
-## Exercise 4: Finishing the Project Well
+## Finishing the project well
 
 **Time: 5 minutes**
 
@@ -367,7 +374,7 @@ A Responsible Computing Plan with an HPC focus should cover:
 - Document work for future reuse
 - Ensure calculations don't need to be rerun
 
-Remember: an RCP is a **living document** that should evolve as your project develops, not a prescriptive checklist to be completed once and forgotten.
+Remember: an RCP is a living document that should evolve as your project develops, not a prescriptive checklist to be completed once and forgotten.
 
 :::::::::::::::::::::::::::::::::::::: keypoints
 
