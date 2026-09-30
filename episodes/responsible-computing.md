@@ -37,7 +37,7 @@ There is often a disconnect between use and awareness of resources used in resea
 
 RCPs help address this by:
 
-- Providing the opportunity to think explicitly about the of the environmental impact of your computing choices
+- Providing the opportunity to think explicitly about the environmental impact of your computing choices
 - Encouraging careful planning to minimise resource use and maximise resource efficiency
 - Ensuring environmental considerations are built into the way the project is run throughout its lifetime 
 
@@ -106,6 +106,8 @@ Planning the project with environmental sustainability in mind is typically the 
 
 We will look at both compute resource use and data resource use. Which of these is more important for your project/activity depends on the type of work you are doing. For most HPC work, compute resource use will dominate the emissions from the activity but if you use a relatively small amount of compute compared to data resources it could be a different story. You can use the measurement methodologies discussed earlier to try and estimate the relative contribution of compute and data resources to your work.
 
+Finally, we will look at selecting appropriate HPC resources for the project.
+
 ### Responsible compute resource use
 
 As we have already seen, *reduction of consumption* is the central tenet of reducing environmental impact. Planning to use minimal compute resources to achieve the project aims is critical. Some high level points to consider: 
@@ -122,17 +124,17 @@ We now take a quick look in more detail at two aspects of planning compute resou
 - The impact of testing before and during a project on environmental impact
 - Making sure that environmental sustainability is considered when selecting the methods and approach to use
 
-### Testing before large-scale use
+#### Testing before large-scale use
 
 Test that the proposed methodologies will likely give viable results before embarking on large amounts of resource use:
 
-- **Review literature carefully**
-- **Discuss planned approach** with experienced researchers
-- **Undertake pilot studies** before committing to large resource use
+- Review literature carefully
+- Discuss the planned approach with experienced researchers
+- Undertake pilot studies before committing to large resource use
 
 You often do not need to run at full scale to test if the selected method is viable – shorter runs, reduced datasets or other reductions can give confidence in the proposed resource consumption estimates.
 
-### Selecting appropriate methods
+#### Selecting appropriate methods
 
 Use methods proportionate to the project objectives rather than automatically choosing the most complex/advanced/higher resolution option:
 
@@ -186,35 +188,39 @@ Your answers might include:
 
 ### Responsible data resource use
 
-Many projects already produce data management plans, and these typically align well with responsible resource use. The questions that would be asked are similar to those for a data management plan:
+Many projects already produce data management plans, and these typically align well with responsible resource use. The questions that would be asked are similar to those for a data management plan. For example, questions such as:
 
-- **Do we really need to keep all intermediate files?**
-- **Does each collaborator need their own copy of the dataset?**
-- **Can rarely used data be compressed or moved to archival storage?**
-- **Have we planned time to review and tidy data during the project?**
+- Do we really need to keep all intermediate files for a long period of time?
+- Does each collaborator need their own copy of the dataset?
+- Can rarely used data be compressed or moved to archival storage throughout the project?
+- Have we planned time to review and tidy data during the project?
 
-Additionally, build plans to publish data using a **FAIR approach** throughout the project (more on this in the "Finishing the project" section).
+Additionally, build plans to publish data using a *FAIR approach* throughout the project (more on this in the "Finishing the project" section).
 
-### Selecting resources
+### Selecting HPC resources
 
-Projects often have choices of HPC facility to use for different parts of the project. With environmental sustainability in mind, the choice is often a balance of **hardware efficiency**, **energy efficiency** and **carbon awareness**.
+Projects often have choices of HPC facility to use for different parts of the project. With environmental sustainability in mind, the choice depends on considerations of the principles we covered earlier in this course: hardware efficiency, energy efficiency and carbon awareness.
 
 Some high level notes:
 
-- **Use existing resources where possible** – making use of existing resources is usually the most sustainable approach
-- **Shared resources are often a more sustainable choice** as they usually achieve higher utilisation over their lifetimes
+- Use existing resources where possible – making use of existing resources is usually the most sustainable approach
+- Shared resources are often a more sustainable choice - they usually achieve higher utilisation over their lifetimes (though this is not always the case for specialist use cases)
 
-When selecting an HPC facility, consider:
+Beyond these very high level considerations, you are looking for facilities that have the lowest emissions per unit of resource used. The following rules can help you do this:
 
-- **Select a facility to minimise operational emissions**
+First, select a facility to minimise operational emissions:
   - Use HPC facilities in locations that have the lowest emissions from electricity generation
   - This usually corresponds to them being sited in locations with lowest national grid carbon intensities
   - Can also be that they have direct connections to renewable energy sources
-  - In the UK, this means HPC resources located as far North as possible
-  
-- **Select a facility to maximise performance if embodied emissions are a significant fraction** of the facility lifetime emissions
+  - In the UK, if connected to the national grid, this typically means HPC resources located as far North as possible
 
-- **Select a facility to maximise energy efficiency if operational emissions are the dominant factor** in lifetime emissions
+Once you have done this, the next evaluation points depend on the facility providing estimates of where the emissions come from over the facility lifetime:
+
+- If embodied emissions are a significant fraction of lifetime emissions, then you should assume you will use the facility in a way the maximises performance per unit of resource.
+
+- If operational emissions are the dominant factor in the lifetime emissions, then you should assume you will use the facility in a way to maximise the energy efficiency of your use.
+
+Looking at these points for the range of possible HPC facilities available to you should help you to make the most emissions-efficient decision on which HPC facility (or facilities) to use for the project.
 
 :::::::::::::::::::::::::::::::::::::  challenge
 
@@ -257,26 +263,26 @@ Re-planning is often needed during research projects as objectives might change,
 
 ### Run software carefully
 
-**Reducing waste of resources** is key to using HPC in a sustainable way. The disconnect between using resources and visible consumption makes it easier to waste resources.
+Reducing waste of resources is key to using HPC in a sustainable way. The disconnect between using resources and visible consumption inherent in HPC use (where the resource you are using is remote and not visible to you in an immediate way) makes it easier to waste resources.
 
-Points to consider:
+Points to consider include many things we have already discussed but must be kept in mind throughout the project:
 
-- **Plan testing of software and scripts on a smaller scale** before running in ways that can consume large amounts of resource
-- **Plan to run appropriate benchmarking** before committing to large usage to ensure you are using resources efficiently (cores, memory, IO, etc.)
-- **Smallest number of cores/nodes is almost always the most emissions efficient** – how fast do you really need results?
-- **Plan to revisit this if the project plan changes** in terms of software, method, problem size, etc.
-- **Consider using carbon intensity forecasts** to schedule work at a lower-carbon time
-- **Before running work, ensure you are recording enough information** to avoid rerunning this work unnecessarily
+- Plan testing of software and scripts on a smaller scale before running in ways that can consume large amounts of resource
+- Plan to run appropriate benchmarking before committing to large usage to ensure you are using resources efficiently (cores, memory, IO, etc.)
+- Smallest number of cores/nodes is almost always the most emissions efficient for parallel calculations – how fast do you really need results?
+- Plan to revisit and replan if the research direction changes in terms of software, method, problem size, etc.
+- Consider using carbon intensity forecasts to schedule work at a lower-carbon time (if that is possible on the facility you are using)
+- Before running work, ensure you are recording enough information to avoid rerunning this work unnecessarily
 
 ### Optimise where it matters
 
 Many projects waste time optimising workflows in areas that will make a negligible impact on reducing environmental impact (or even performance) or optimise inefficiently due to lack of specialist support.
 
-- **Find the locations where optimisation will likely have the largest impact**
-- Remember, you may get a larger impact from running carefully without ever needing to get involved with programming
-- **Make sure you have some plan to measure the impact of any changes** (e.g., using HPC-CI, covered in the Measurement episode)
-- **Enlist the support of specialists** to analyse and optimise your workflow
-- Many institutions have a local **Research Software Engineering team** who are well placed to help
+- Find the locations where optimisation will likely have the largest impact
+    + Remember, you may get a larger impact from running carefully without ever needing to get involved with programming
+- Make sure you have some plan to measure the impact of any changes (e.g., using HPC-CI, covered in the Measurement episode)
+- Enlist the support of specialists** to analyse and optimise your workflow
+    + For example, many institutions have a local Research Software Engineering team who are well placed to help
 
 ## Finishing the project
 
@@ -289,11 +295,11 @@ In environmental sustainability terms, planning how a project will be finalised 
 
 For example, the following points could be considered:
 
-- **Which data genuinely need to be retained and what can be deleted?**
-- **Could publishing this data or code reduce duplicated work elsewhere?**
-- **Have I left enough documentation for others to reuse what has been done?**
+- Which data genuinely need to be retained and what can be deleted?
+- Could publishing this data or code reduce duplicated work elsewhere?
+- Have I left enough documentation for others to reuse what has been done?
 
-Finishing a project well typically corresponds to applying **FAIR principles**.
+Finishing a project well typically corresponds to applying *FAIR principles**
 
 ### FAIR data principles
 
