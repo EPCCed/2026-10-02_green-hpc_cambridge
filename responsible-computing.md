@@ -299,7 +299,7 @@ For example, the following points could be considered:
 - Could publishing this data or code reduce duplicated work elsewhere?
 - Have I left enough documentation for others to reuse what has been done?
 
-Finishing a project well typically corresponds to applying *FAIR principles**
+Finishing a project well typically corresponds to applying *FAIR principles**.
 
 ### FAIR data principles
 
@@ -320,7 +320,7 @@ The FAIR data principles provide a framework for ensuring data is:
 By following FAIR principles, you ensure that:
 - Your data can be found and used by others (and your future self)
 - Work does not need to be duplicated
-- The environmental cost of data generation is amortized over maximum reuse
+- The environmental cost of data generation is amortised over maximum reuse
 - Research is more impactful and efficient overall
 
 :::::::::::::::::::::::::::::::::::::  challenge
@@ -340,7 +340,7 @@ Write brief bullet points covering how you could, from an environmental sustaina
 Your answers might include:
 
 - Review all data and identify what genuinely needs to be retained vs what can be deleted
-- Publish datasets in a recognized repository with appropriate metadata (making them FAIR)
+- Publish datasets in a recognised repository with appropriate metadata (making them FAIR)
 - Publish code with documentation to enable others to build on your work
 - Write clear documentation explaining methods and results
 - Consider writing up negative results to prevent others repeating the same unsuccessful approaches
@@ -359,11 +359,11 @@ A Responsible Computing Plan with an HPC focus should cover:
 
 ### Before the project starts
 - Write a positive environmental impact statement
-- Plan to minimize resource consumption
+- Plan to minimise resource consumption
 - Build testing and benchmarking into the project plan
 - Select appropriate methods and scales
 - Plan responsible data management
-- Choose HPC resources based on carbon intensity and efficiency
+- Choose HPC resources based on emissions efficiency
 
 ### During the project
 - Test at small scale before large runs
@@ -378,15 +378,15 @@ A Responsible Computing Plan with an HPC focus should cover:
 - Delete unnecessary data
 - Publish data and code following FAIR principles
 - Document work for future reuse
-- Ensure calculations don't need to be rerun
+- Ensure calculations do not need to be rerun
 
 Remember: an RCP is a living document that should evolve as your project develops, not a prescriptive checklist to be completed once and forgotten.
 
 :::::::::::::::::::::::::::::::::::::: keypoints
 
-- A Responsible Computing Plan (RCP) helps plan research projects to minimize environmental impact while achieving project goals
+- A Responsible Computing Plan (RCP) helps plan research projects to minimise environmental impact while achieving project goals
 - RCPs are living documents that should be developed during project planning and updated throughout the project lifecycle
-- Key planning considerations include: minimizing resource use, building in testing, selecting appropriate methods, and choosing sustainable HPC resources
+- Key planning considerations include: minimising resource use, building in testing, selecting appropriate methods, and choosing sustainable HPC resources
 - During project execution: test at small scale, benchmark, use minimum resources, and consider carbon intensity
 - Finishing a project well involves applying FAIR data principles to enable reuse and prevent duplication
 - The four main sections of an RCP are: positive environmental impacts, planning, running, and finishing the project
