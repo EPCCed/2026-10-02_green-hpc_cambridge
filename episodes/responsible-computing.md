@@ -61,18 +61,22 @@ Finish the project well
 
 ## Evaluate positive environmental impacts
 
-We will look at minimising the negative environmental impacts in the rest of this episode but the first step in developing responsible computing plan is taking some time to evaluate the positive environmental impacts of the work. Ideally, the impacts would be evaluated or estimated quantitatively but this may not always be possible and you may need to include more qualitative statements. You should consider both direct and indirect impacts.
+We will look at minimising the negative environmental impacts in the rest of this episode but the first step in developing responsible computing plan is taking some time to evaluate the positive environmental impacts of the work. Ideally, the impacts would be evaluated or estimated quantitatively but this may not always be possible and you may need to include more qualitative statements. You should consider direct, indirect and community/activism impacts.
 
 The aim of the statement is to help justify the environmental cost of the computing resources used by highlighting the environmental benefits the project will deliver.
 
-Direct impacts are outputs from the project/activity that will reduce environmental impact, indirect impacts are outputs from the project that enable others to reduce their environmental impact. Some examples of direct and indirect positive impacts can be found in the table below:
+- Direct impacts: New approaches/technologies, efficiency improvements, understanding/quantifying polycrisis impacts
+- Indirect impacts: Fundamental research to enable new approaches/technologies, model improvements
+- Community/activism impacts: Adding awareness/skills in environmental issues, demonstrating leadership in environmental sustainability, normalising action
 
-| Direct Impacts | Indirect Impacts |
-|:--|:--|
-| Developing a new, more efficient wind turbine | Ensuring that environmental impact is publicly stated in all project outputs |
-| Improving/evaluating biodiversity in a habitat | Developing training to raise awareness/understanding of environmental issues |
-| Enabling reuse of water that would otherwise be wasted | Running modelling to support IPCC reports and targets |
-| Developing more efficient rare earth recycling methods | Providing datasets/methods to support emissions evaluation |
+Some examples of direct, indirect and community/activism positive impacts can be found in the table below:
+
+| Direct Impacts | Indirect Impacts | Community/activism impacts |
+|:--|:--|:--|
+| Developing a new, more efficient wind turbine | Research to understand possible new battery materials | Ensuring that environmental impact is publicly stated in all project outputs |
+| Improving/evaluating biodiversity in a habitat | Developing improved climate modelling approaches | Developing training to raise awareness/understanding of environmental issues |
+| Enabling reuse of water that would otherwise be wasted | Developing AI approaches that reduce the need for costly simulations | Organising events that normalise action to reduce environmental impacts in your research field |
+| Running modelling to support IPCC reports and targets | Developing and using responsible computing plans for your projects | Gaining [GreenDiSC certification](https://www.software.ac.uk/GreenDiSC) for your research group |
 
 :::::::::::::::::::::::::::::::::::::  challenge
 
@@ -83,7 +87,7 @@ Direct impacts are outputs from the project/activity that will reduce environmen
 Choose a project/activity you are (or have been) involved in, or make up a plausible scenario.
 
 1. Write up the project overview in 2-3 sentences
-2. Produce 2-3 bullet points that describe how the project could have positive environmental impact. This would ideally include at least one point that could be evaluated quantitatively. Classify the points as *direct* or *indirect*.
+2. Produce 2-3 bullet points that describe how the project could have positive environmental impact. This would ideally include at least one point that could be evaluated quantitatively. Classify the points as *direct*, *indirect* or *community/activism*.
 
 :::::::::::::  solution
 
@@ -95,6 +99,7 @@ Your project overview should clearly state what the project/activity aims to ach
 - Qualitative measures (e.g., "This project will enable better understanding of climate patterns")
 - Direct impacts (e.g., reduced emissions from the project itself)
 - Indirect impacts (e.g., enabling others to reduce their environmental footprint)
+- Community/activism impacts (e.g. enabling change and normalising action)
 
 :::::::::::::::::::::::
 
@@ -148,9 +153,7 @@ Use methods proportionate to the project objectives rather than automatically ch
 
 ## Compute resource planning
 
-**Time: 10 minutes**
-
-For the same project you worked on in Exercise 1:
+For the same project you worked on in the first challenge:
 
 Write brief bullet points covering how you could, from an environmental sustainability viewpoint, plan the project to:
 
@@ -225,8 +228,6 @@ Looking at these points for the range of possible HPC facilities available to yo
 :::::::::::::::::::::::::::::::::::::  challenge
 
 ## Data and resource planning
-
-**Time: 10 minutes**
 
 For the same project you worked on in previous exercises:
 
@@ -327,7 +328,6 @@ By following FAIR principles, you ensure that:
 
 ## Finishing the project well
 
-**Time: 5 minutes**
 
 For the same project you worked on in previous exercises:
 
